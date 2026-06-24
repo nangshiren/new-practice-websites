@@ -1,0 +1,151 @@
+body{
+    font-family: "Roboto";
+    margin:0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.hero,
+.footer{
+    background-color: #1f2937;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0  80px;
+}
+.footer{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    color: white;
+}
+.header{
+    display: flex;
+    
+    font-size: 24px;
+    color: #F9FAF8;
+    justify-content: space-between;
+    padding: 10px 80px;
+    gap:20px;
+    align-items: baseline;
+}
+ul{
+    list-style: none;
+    gap:20px;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.intro{
+    display: flex; 
+    align-items: center;
+    padding: 80px;
+}
+.intro .main-text{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin:0;
+}
+.intro .sec-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.intro-image{
+    width: 100%;
+    height: 200px;
+    border: 2px #1F2937 solid ;
+}
+.s-up,.s-up-two{
+    background-color: #3882F6;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
+}
+.intro-image {
+  height: 250px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-t{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.sub-img{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+.img-one{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.img-sub{
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    border-radius: 12px;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 150px;
+    background-color: #E5E7EB;
+}
+.q-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+.q-name{
+    align-self: flex-end;
+}
+.sign{
+    padding: 50px 60px;
+}
+.sign-card{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    align-items: center;
+    border-radius: 15px;
+}
+.sign-text{
+    display: flex;
+    flex-direction: column;
+}
+.s-text-one,
+.s-text-two {
+  margin: 0;
+}
+.s-text-one{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.s-text-two{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.s-up-two{
+    border: 2px solid white;
+}
+
